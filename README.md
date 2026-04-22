@@ -51,7 +51,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser
 
 ```powershell
 Connect-MgGraph -Scopes "Mail.Read"
-./ms-graph-mail-auditor.ps1
+powershell -ExecutionPolicy Bypass -File .\ms-graph-mail-auditor.ps1
 ```
 
 ---
